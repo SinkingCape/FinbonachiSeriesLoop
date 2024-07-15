@@ -3,6 +3,10 @@
 /*
 next term is the sum of the previous two terms. 
 The first two terms of the Fibonacci sequence are 0 followed by 1.
+These programmes use both recursive and simple loops to produce and print the Fibonacci sequence on coolterm. 
+Initialising communication to print the sequence through a serial terminal is done by the Serial object. 
+The "for loop" method computes terms using a loop, beginning with 0 and printing each term until n terms are reached. 
+The recursive method adds and prints terms iteratively, beginning with 0 and printing up to "n" terms, using an aid function.
 */
 // main() runs in its own thread in the OS
 
